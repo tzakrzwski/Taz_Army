@@ -1,0 +1,120 @@
+
+/* Console Boxes */
+
+.consoleContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.console {
+	width: 23vw;
+	height: 23vw;
+	background-color: #058ed9;
+
+	padding: 1.5vw;
+	margin: 2vw;
+}
+
+.controllerTall {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.controllerWide {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	height: 50%;
+}
+
+.logoWide {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.logoTall {
+	display: block;
+	height: 70%;
+	margin: auto;
+}
+
+/* Div */
+
+body {
+	background-color: #98b9f2;
+}
+
+#wrapper {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* Text */
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	line-height: 0.1em;
+	font-style: italic;
+
+	border-bottom: 0.5vw solid #388df4;
+	margin: 5vw 0;
+} 
+
+h2 span {
+	background-color: #98b9f2;
+    padding:0 10px;
+}
+
+/* Footer */
+
+h3 {
+	text-align: center;
+	font-size: 1.2em;
+
+	padding-top: 10px;
+	border-top: 0.5vw solid #388df4;
+	margin-bottom: 0;
+}
+
+#disclamer {
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+}
+
+/* Images */
+
+#sitelogo {
+	width: 40%;
+	display: block;
+	margin: 3vw auto;
+}
+
+@media screen and (max-width: 800px) {
+
+	/* Nav */
+
+    #sitelogo {width: 80%;}
+
+	/* Console Boxes */
+
+	.console {
+		width: 35vw;
+		height: 35vw;
+		padding: 2.5vw;
+		margin: 2.5vw;
+	}
+}

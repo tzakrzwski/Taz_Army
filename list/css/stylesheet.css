@@ -1,0 +1,324 @@
+/* Colors */
+/*  
+	Dark Blue: #141b41;
+	Middle Blue (v1): #058ed9;
+	Violet: #6f9ceb;
+	Baby Blue: #98b9f2;
+	Middle Blue (v2): #388df4;
+*/
+
+/* Nav */ 
+
+nav a {
+	width: 34%;
+	color: black;
+
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.4em;
+	font-style: italic;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0;
+
+	transition: 0.4s;
+}
+
+nav a:hover {
+	background-color: white;
+}
+
+nav {
+	display: flex;
+    justify-content: space-around; 
+    overflow: hidden;
+
+	background-color: #058ed9;
+	margin-bottom: 5vw;
+}
+
+/* Side Nav */
+
+#close {
+	display: none;
+	font-size: 15vw;
+	width: 80vw;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+}
+
+#sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0; left: 0;
+	background-color: #98b9f2;
+	overflow-y: scroll;
+	padding-top: 3vw;
+	transition: 0.5s;
+}
+
+.consoleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.consoleContainer a {
+	text-decoration: none;
+}
+
+.consoleX {
+	width: 22vw;
+	height: 22vw;
+	background-color: #058ed9;
+
+	padding: 1.5vw;
+	margin: 1.5vw;
+}
+
+.controllerTall {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.controllerWide {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50%;
+}
+
+.containerHome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+}
+
+.containerHome p {
+	font-size: 2.8vw;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.containerHomeimg {
+	display: flex;
+	height: 100%;
+	width: 50%;
+}
+
+.containerHomeimg .logoTall {
+	height: 100%;
+	margin: 0;
+}
+
+.containerHome .logoWide {
+	width: 70%;
+}
+
+.consoleHome {
+	display: flex;
+	width: 22vw;
+	height: 11vw;
+	background-color: #6f9ceb;
+
+	padding: 1.5vw;
+	margin: 1.5vw;
+}
+
+.logoWide {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.logoTall {
+	display: block;
+	height: 70%;
+	margin: auto;
+}
+
+/* Search Bar */
+
+#keyword {
+	margin-bottom:  10px;
+	font-size: 1.1em;
+	width: 30%;
+	float: left;
+	margin: 0 5vw;
+	margin-bottom: 1vw;
+}
+
+#device {
+	margin-bottom:  10px;
+	font-size: 1.1em;
+	width: 30%;
+	float: right;
+	margin: 0 5vw;
+}
+
+
+/* Table */
+
+table {
+	width: 100%;
+
+	background-color: rgba(255, 255, 255, 0.2);
+
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	line-height: 1.5;
+}
+
+th {
+	font-style: italic;
+	font-size: 1.1em;
+
+	border-bottom: 3px solid black;
+}
+
+.gameName {
+	flex-basis: 2;
+	text-align: left;
+}
+
+.tableborder {
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+
+/* Div */
+
+body {
+	background-color: #98b9f2;
+}
+
+#wrapper {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* Footer */
+
+footer {
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+
+	padding-top: 10px;
+	border-top: #058ed9 5px solid;
+	margin-bottom: 0;
+}
+
+#disclamer {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+
+	margin: 0;
+}
+
+/* Text */
+
+h1 {
+	text-align: center;
+
+}
+
+h2 {
+   text-align: center;
+   line-height: 0.1em;
+   font-style: italic;
+
+   border-bottom: 5px solid #058ed9;
+   margin: 0;
+} 
+
+h2 span { 
+    background-color: #98b9f2;
+
+    padding:0 10px; 
+}
+
+#bytitle {
+	margin-top: 7vw;
+	margin-bottom: 4vw;
+}
+
+/* Images */
+
+#sitelogo {
+	width: 40%;
+
+	display: block;
+
+	margin: 3vw auto;
+}
+
+.logo {
+	width: 30%;
+
+	display: block;
+
+	padding: 7vw;
+	margin: 0 auto;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 800px) {
+
+	/* Nav */
+
+	nav {
+		flex-direction: column;
+		background-color: #98b9f2;
+	}
+    nav a {
+    	width: 90%;
+    	padding: 10px 0;
+    	margin: 10px auto;
+    	background-color: #058ed9;
+    }
+    #sitelogo {width: 80%;}
+
+    /* Logo / Charts */
+
+    .logo {width: 50%;}
+
+	/* Side Nav */
+
+	.consoleX {
+		width: 60vw;
+		height: 60vw;
+		padding: 5vw;
+		margin: 5vw;
+	}
+	.consoleHome {
+		width: 60vw;
+		height: 30vw;
+		padding: 5vw;
+		margin: 5vw;
+	}
+	.containerHome p {font-size: 7vw;}
+	#close {display: block;}
+}

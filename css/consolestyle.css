@@ -1,0 +1,339 @@
+/* Colors */
+/*  
+	Dark Blue: #141b41;
+	Middle Blue (v1): #058ed9;
+	Violet: #6f9ceb;
+	Baby Blue: #98b9f2;
+	Middle Blue (v2): #388df4;
+*/
+
+/* Padding */
+/* top, right/left, bottom, left */ 
+
+/* Nav */
+
+nav a { 
+	width: 34%;
+	color: black;
+
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.4em;
+	font-style: italic;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0;
+
+	transition: 0.4s;
+}
+
+nav a:hover {
+	background-color: white;
+}
+
+nav {
+	display: flex;
+    justify-content: space-around; 
+    overflow: hidden;
+	background-color: #058ed9;
+}
+
+/* Side Nav */
+
+#close {
+	display: none;
+	font-size: 15vw;
+	width: 80vw;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+}
+
+#sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0; left: 0;
+	background-color: #98b9f2;
+	overflow-y: scroll;
+	padding-top: 3vw;
+	transition: 0.5s;
+}
+
+.consoleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.consoleContainer a {
+	text-decoration: none;
+}
+
+.consoleX {
+	width: 22vw;
+	height: 22vw;
+	background-color: #058ed9;
+
+	padding: 1.5vw;
+	margin: 1.5vw;
+}
+
+.controllerTall {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.controllerWide {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50%;
+}
+
+.containerHome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+}
+
+.containerHome p {
+	font-size: 2.8vw;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.containerHomeimg {
+	display: flex;
+	height: 100%;
+	width: 50%;
+}
+
+.containerHomeimg .logoTall {
+	height: 100%;
+	margin: 0;
+}
+
+.containerHome .logoWide {
+	width: 70%;
+}
+
+.consoleHome {
+	display: flex;
+	width: 22vw;
+	height: 11vw;
+	background-color: #6f9ceb;
+
+	padding: 1.5vw;
+	margin: 1.5vw;
+}
+
+.logoWide {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.logoTall {
+	display: block;
+	height: 70%;
+	margin: auto;
+}
+
+/* Div */
+
+body {
+	background-color: #98b9f2;
+}
+
+#wrapper {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* Console Info */
+
+h1 {
+	font-size: 10vw;
+	padding: 0;
+	margin: 0;
+}
+
+.console {
+	padding: 0;
+	margin: 0 20px 5vw 20px;
+}
+
+.console .infoBox {
+	align-items: center;
+}
+.console .infoText {
+	display: block;
+	line-height: 2;
+}
+
+/* Game Pic and Info */
+
+.infoBox {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.infoText {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	padding-top: 3.2vw;
+	padding-bottom: 3.2vw;
+	margin: 0;
+}
+
+.infoImg {
+	width: 130%;
+	padding: 0;
+	margin: 0;
+}
+
+.gameimg {
+	display: block;
+	width: 100%; 
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	text-align: center;
+	font-size: 2em;
+	padding: 0;
+	margin: 20px;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	margin: 10px;
+}
+
+p {
+	font-size: 1.1em;
+	clear: both;
+	padding: 0;
+	margin: 10px;
+}
+
+ul {
+	font-weight: bold;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+/* Footer */
+
+footer {
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+
+	padding-top: 10px;
+	border-top: #058ed9 5px solid;
+	margin-bottom: 0;
+}
+
+#disclamer {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0;
+}
+
+/* Text */
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+   text-align: center;
+   line-height: 0.1em;
+   font-style: italic;
+
+   border-bottom: 5px solid #058ed9;
+   margin: 0 0 20px;
+} 
+
+h2 span { 
+    background-color: #98b9f2;
+    padding: 0 10px; 
+}
+
+/* Images */
+
+#sitelogo {
+	width: 40%;
+	display: block;
+	margin: 3vw auto;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 800px) {
+
+	/* Nav */
+
+	nav {
+		flex-direction: column;
+		background-color: #98b9f2;
+	}
+    nav a {
+    	width: 90%;
+    	padding: 10px 0;
+    	margin: 10px auto;
+    	background-color: #058ed9;
+    }
+    #sitelogo {width: 80%;}
+
+    /* Game Pic and Info */
+
+    .infoBox {
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .infoText {width: 95%; padding-left: 0;}
+    .infoImg {width: 90%;}
+
+
+	/* Side Nav */
+
+	.consoleX {
+		width: 60vw;
+		height: 60vw;
+		padding: 5vw;
+		margin: 5vw;
+	}
+	.consoleHome {
+		width: 60vw;
+		height: 30vw;
+		padding: 5vw;
+		margin: 5vw;
+	}
+	.containerHome p {font-size: 7vw;}
+	#close {display: block;}
+}

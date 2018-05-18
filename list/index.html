@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Index</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../css/scrollbar.css">
+	<link rel="icon" type="image/x-icon" href="" id="icon">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+<body onload="init()" onkeydown="konamiCode(event)">
+	<script type="text/javascript" src="../javascript/script.js"></script>
+	<div id='wrapper'> 
+
+		<img src="../images/tazarmylogo.png" alt="TAZ's Army Logo" id="sitelogo">
+
+		<nav>
+			<a href="../list/index.html">Game Index</a>
+			<a href="#" onclick="openNav()">Console Select</a>
+			<a href="../about/index.html">About</a>
+		</nav>
+
+		<div id="sideNav">
+			<div class="consoleContainer">
+				<a id="close" onclick="openNav()" href="#">&times;</a>
+				<a href="../index.html"><div class="consoleHome">
+					<div class="containerHomeimg"><img src="../images/home.png" alt="Home Button" class="logoTall"></div>
+					<div class="containerHome"><p>HOME SCREEN</p></div>
+				</div></a>
+				<a href="../switch/index.html"><div class="consoleX">
+					<div class="container"><img src="../images/switch.png" alt="Switch" class="controllerWide"></div>
+					<div class="container"><img src="../images/switchtext.png" alt="Switch Logo" class="logoWide"></div>
+				</div></a>
+				<a href="../wiiu/index.html"><div class="consoleX"><div class="container"><img src="../images/wiiu.png" alt="WiiU" class="controllerWide"></div>
+					<div class="container"><img src="../images/wiiutext.png" alt="WiiU Logo" class="logoTall"></div>
+				</div></a>
+				<a href="../wii/index.html"><div class="consoleX">
+					<div class="container"><img src="../images/wii.png" alt="Wii" class="controllerTall"></div>
+					<div class="container"><img src="../images/wiitext.png" alt="Wii Logo" class="logoTall"></div>
+				</div></a>
+				<a href="../ds/index.html"><div class="consoleX">
+					<div class="container"><img src="../images/ds.png" alt="DS" class="controllerTall"></div>
+					<div class="container"><img src="../images/dstext.png" alt="DS Logo" class="logoWide"></div>
+				</div></a>
+				<a href="../snes/index.html"><div class="consoleX">
+					<div class="container"><img src="../images/snes.png" alt="Super NES" class="controllerWide"></div>
+					<div class="container"><img src="../images/snestext.png" alt="SNES Logo" class="logoWide"></div>
+				</div></a>
+				<a href="../nes/index.html"><div class="consoleX">
+					<div class="container"><img src="../images/nes.png" alt="NES" class="controllerWide"></div>
+					<div class="container"><img src="../images/nestext.png" alt="NES Logo" class="logoWide"></div>
+				</div></a>
+			</div>
+		</div>
+
+		<section>
+			<h2><span>Games by Franchise</span></h2>
+
+			<article>
+				<img src="images/zeldalogo.png" alt="Legend of Zelda" class="logo">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Legend of Zelda: Breath of the Wild</td>
+						<td class="tableborder">Switch</td>
+						<td>10 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: Wind Waker HD</td>
+						<td class="tableborder">Wii U</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: Twilight Princess</td>
+						<td class="tableborder">Wii</td>
+						<td>9.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: A Link to the Past</td>
+						<td class="tableborder">SNES</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Legend of Zelda</td>
+						<td class="tableborder">NES</td>
+						<td>9 / 10</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<img src="images/pokemon.png" alt="Pokemon" class="logo">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon HeartGold and SoulSilver</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Diamond and Pearl</td>
+						<td class="tableborder">DS</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Platinum</td>
+						<td class="tableborder">DS</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Black and White</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Black 2 and White 2</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<img src="images/lego.png" alt="Lego" class="logo">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Lego City Undercover</td>
+						<td class="tableborder">Wii U</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Lego Battles</td>
+						<td class="tableborder">DS</td>
+						<td>7 / 10</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<img src="images/mariokart.png" alt="Mario Kart" class="logo" style="width: 50%;">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart 8 Deluxe</td>
+						<td class="tableborder">Switch</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart 8</td>
+						<td class="tableborder">Wii U</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart Wii</td>
+						<td class="tableborder">Wii</td>
+						<td>8 / 10</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<img src="images/supermario.png" alt="Super Mario" class="logo">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Odyssey</td>
+						<td class="tableborder">Switch</td>
+						<td>10 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Maker</td>
+						<td class="tableborder">Wii U</td>
+						<td>8.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">New Super Mario Bros. Wii</td>
+						<td class="tableborder">Wii</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Bros.</td>
+						<td class="tableborder">NES</td>
+						<td>10 / 10</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<img src="images/wii.png" alt="Wii Series" class="logo">
+				<table>
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Wii Sports</td>
+						<td class="tableborder">Wii</td>
+						<td>7 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Wii Play</td>
+						<td class="tableborder">Wii</td>
+						<td>6 / 10</td>
+					</tr>
+				</table>
+			</article>
+			
+		</section>
+
+		<section>
+			<h2 id="bytitle"><span>Games by Title</span></h2>
+			<article>
+
+				<input type="text" id="keyword" onkeyup="search(0, 'keyword', 'device')" placeholder="Search By Game">
+				<input type="text" id="device" onkeyup="search(1, 'device', 'keyword')" placeholder="Search By Console">
+
+				<table id="gametable">
+					<tr>
+						<th>Title</th>
+						<th class="tableborder">Console</th>
+						<th>Rating</th>
+					</tr>
+					<tr>
+						<td class="gameName">Lego City Undercover</td>
+						<td class="tableborder">Wii U</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Legend of Zelda: Breath of the Wild</td>
+						<td class="tableborder">Switch</td>
+						<td>10 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: Wind Waker HD</td>
+						<td class="tableborder">Wii U</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: Twilight Princess</td>
+						<td class="tableborder">Wii</td>
+						<td>9.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">The Legend of Zelda: A Link to the Past</td>
+						<td class="tableborder">SNES</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Legend of Zelda</td>
+						<td class="tableborder">NES</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Lego Battles</td>
+						<td class="tableborder">DS</td>
+						<td>7 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Wii Sports</td>
+						<td class="tableborder">Wii</td>
+						<td>7 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Wii Play</td>
+						<td class="tableborder">Wii</td>
+						<td>6 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Rocket League</td>
+						<td class="tableborder">Switch</td>
+						<td>8.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pikmin 3</td>
+						<td class="tableborder">Wii U</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon HeartGold and SoulSilver</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Diamond and Pearl</td>
+						<td class="tableborder">DS</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Platinum</td>
+						<td class="tableborder">DS</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Black and White</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Pokemon Black 2 and White 2</td>
+						<td class="tableborder">DS</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Smash Bros. for the Wii U</td>
+						<td class="tableborder">Wii U</td>
+						<td>9.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Paper Mario</td>
+						<td class="tableborder">Wii</td>
+						<td>8.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">M&#38;M's Kart Racing</td>
+						<td class="tableborder">Wii</td>
+						<td>2 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Odyssey</td>
+						<td class="tableborder">Switch</td>
+						<td>10 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Maker</td>
+						<td class="tableborder">Wii U</td>
+						<td>8.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">New Super Mario Bros. Wii</td>
+						<td class="tableborder">Wii</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario Bros.</td>
+						<td class="tableborder">NES</td>
+						<td>10 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Vs Donkey Kong: Mini-Land Mayhem!</td>
+						<td class="tableborder">DS</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Super Mario RPG: Legend of the Seven Stars</td>
+						<td class="tableborder">SNES</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Earthbound</td>
+						<td class="tableborder">SNES</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Chrono Trigger</td>
+						<td class="tableborder">SNES</td>
+						<td>9.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Duck Hunt</td>
+						<td class="tableborder">NES</td>
+						<td>8 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Donkey Kong</td>
+						<td class="tableborder">NES</td>
+						<td>9.5 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart 8</td>
+						<td class="tableborder">Wii U</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart 8 Deluxe</td>
+						<td class="tableborder">Switch</td>
+						<td>9 / 10</td>
+					</tr>
+					<tr>
+						<td class="gameName">Mario Kart Wii</td>
+						<td class="tableborder">Wii</td>
+						<td>8 / 10</td>
+					</tr>
+				</table>
+			</article>
+		</section>
+
+		<footer>
+			<h3>Updated April 20, 2018</h3>
+			<p id="disclamer">Taz's Army Inc., Copyright 2018<br>This site is in no way sposered or conected with Nentendo or any of its afiliates</p>
+		</footer>
+
+		<div id="code">
+			
+		</div>
+
+
+	</div>
+</body>
+</html>

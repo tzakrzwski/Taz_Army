@@ -1,0 +1,7 @@
+#sideNav::-webkit-scrollbar {
+	width: 5px;
+}
+
+#sideNav::-webkit-scrollbar-thumb {
+	background-color:  #6f9ceb;
+}
