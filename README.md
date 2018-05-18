@@ -1,11 +1,11 @@
 Taz_Army
 
-Here is my final website, called Taz's Army. Here you will find reviews for games relased on Nentendo consoles.
+Here is my final website, called Taz's Army. Here you will find reviews for games relased on Nintendo consoles.
 
 Some of the interesting features of the site include:
 # - Changing site icon in the browser tab
-# - Colabsable side naviagation
-# - Responsivness for smaller screens (such as phones)
+# - Collapsible side navigation
+# - Responsiveness for smaller screens (such as phones)
 # - Searchable game index list
 # - Top Notch reviews
 # - Images and Information about each game w/ a 1-10 rating
