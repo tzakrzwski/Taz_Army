@@ -1,6 +1,7 @@
 Taz_Army
 
 Here is my final website, called Taz's Army. Here you will find reviews for games relased on Nintendo consoles.
+https://tzakrzwski.github.io/tazarmy/
 
 Some of the interesting features of the site include:
 # - Changing site icon in the browser tab
